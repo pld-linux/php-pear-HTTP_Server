@@ -27,7 +27,10 @@ callbacks have to return.
 This class has in PEAR status: %{_status}.
 
 %description -l pl
-...
+Klasa HTTP_Server pozwala na ³atwe implementowanie serwerów HTTP
+poprzez dostarczanie callbacków. Klasa bazowa analizuje ¿±danie,
+wywo³uje odpowiedni callback i tworzy odpowied¼ w oparciu o tablicê
+zwrócon± przez callback.
 
 Ta klasa ma w PEAR status: %{_status}.
 
