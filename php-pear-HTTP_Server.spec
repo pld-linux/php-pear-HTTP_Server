@@ -25,7 +25,7 @@ supplying callbacks. The base class will parse the request, call the
 apropriate callback and build a response based on an array that the
 callbacks have to return.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa HTTP_Server pozwala na ³atwe implementowanie serwerów HTTP
