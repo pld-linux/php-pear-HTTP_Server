@@ -1,17 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define         _class          HTTP
 %define         _subclass       Server
-%define		_status		beta
+%define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - HTTP server class
 Summary(pl):	%{_pearname} - klasa do obs³ugi serwera HTTP
 Name:		php-pear-%{_pearname}
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e596c65fb77a07c52526025e5b68ab95
+# Source0-md5:	c2af949c018e3d1428de4679f7f7ce5a
 URL:		http://pear.php.net/package/HTTP_Server/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
