@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - HTTP server class
 Summary(pl):	%{_pearname} - klasa do obs³ugi serwera HTTP
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
+Version:	0.2
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9b900c74a641448b7b9b59fc1bfda4b6
+# Source0-md5:	e596c65fb77a07c52526025e5b68ab95
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
