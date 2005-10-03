@@ -8,14 +8,18 @@ Summary:	%{_pearname} - HTTP server class
 Summary(pl):	%{_pearname} - klasa do obs³ugi serwera HTTP
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
-Release:	2
+Release:	2.1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	b1c05e2380d4b4c6d083f1740e512430
 URL:		http://pear.php.net/package/HTTP_Server/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-common >= 3:4.2.0
 Requires:	php-pear
+Requires:	php-pear-HTTP
+Requires:	php-pear-Net_Server >= 0.12.0
+Requires:	php-pear-PEAR
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
