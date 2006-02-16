@@ -19,7 +19,7 @@ Requires:	php-common >= 3:4.2.0
 Requires:	php-pear
 Requires:	php-pear-HTTP
 Requires:	php-pear-Net_Server >= 0.12.0
-Requires:	php-pear-PEAR
+Requires:	php-pear-PEAR-core
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
