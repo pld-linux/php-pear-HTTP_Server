@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - HTTP server class
-Summary(pl):	%{_pearname} - klasa do obs³ugi serwera HTTP
+Summary(pl.UTF-8):   %{_pearname} - klasa do obsÅ‚ugi serwera HTTP
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
 Release:	4
@@ -33,11 +33,11 @@ callbacks have to return.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa HTTP_Server pozwala na ³atwe implementowanie serwerów HTTP
-poprzez dostarczanie callbacków. Klasa bazowa analizuje ¿±danie,
-wywo³uje odpowiedni callback i tworzy odpowied¼ w oparciu o tablicê
-zwrócon± przez callback.
+%description -l pl.UTF-8
+Klasa HTTP_Server pozwala na Å‚atwe implementowanie serwerÃ³w HTTP
+poprzez dostarczanie callbackÃ³w. Klasa bazowa analizuje Å¼Ä…danie,
+wywoÅ‚uje odpowiedni callback i tworzy odpowiedÅº w oparciu o tablicÄ™
+zwrÃ³conÄ… przez callback.
 
 Ta klasa ma w PEAR status: %{_status}.
 
