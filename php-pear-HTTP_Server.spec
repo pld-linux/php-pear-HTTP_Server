@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - HTTP server class
-Summary(pl.UTF-8):   %{_pearname} - klasa do obsługi serwera HTTP
+Summary(pl.UTF-8):	%{_pearname} - klasa do obsługi serwera HTTP
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
 Release:	4
