@@ -8,7 +8,7 @@ Summary:	%{_pearname} - HTTP server class
 Summary(pl.UTF-8):	%{_pearname} - klasa do obsługi serwera HTTP
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
-Release:	4
+Release:	5
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
