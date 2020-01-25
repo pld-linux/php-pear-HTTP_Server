@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	HTTP_Server
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - HTTP server class
 Summary(pl.UTF-8):	%{_pearname} - klasa do obsługi serwera HTTP
 Name:		php-pear-%{_pearname}
